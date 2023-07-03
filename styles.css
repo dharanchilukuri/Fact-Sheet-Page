@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 40px;
+  height: 15px;
+  padding-right: 1em;
+}
+
+body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+#header {
+  padding-top: 1em;
+  max-width: 50em;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(14, 51, 94);
+}
+
+#date {
+  font-size: 0.7em;
+  font-weight: 500;
+  padding: 1.5em;
+}
+h1 {
+  font-family: 'Stoke', serif;
+  font-size: 2.6em;
+  line-height: 1.2em;
+}
+a {
+  color: rgb(20, 154, 167);
+  padding: 0 2em;
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+#content {
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 1.5em;
+  font-size: 0.85em;
+}
+#date,
+#content {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  font-family: 'Georgia' 'Helvetica', 'Arial', sans-serif;
+  max-width: 30em;
+  margin: 0 auto;
+  font-size: 1.17em;
+  color: rgb(21, 41, 100);
+}
+p {
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+div {
+  padding-top: 0.5em;
+  margin-top: 0.5em;
+}
+
+li {
+  padding-top: 0.5em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.end {
+  text-align: center;
+}
